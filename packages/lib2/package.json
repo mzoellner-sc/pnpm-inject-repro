@@ -1,0 +1,10 @@
+{
+  "name": "@company/lib2",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@company/lib3": "workspace:*",
+    "mongodb": "6.17.0"
+  }
+}

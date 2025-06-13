@@ -1,0 +1,12 @@
+{
+  "name": "@company/app",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "@company/lib1": "workspace:*"
+  }
+}

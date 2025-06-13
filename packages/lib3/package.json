@@ -1,0 +1,13 @@
+{
+  "name": "@company/lib3",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@mongodb-js/zstd": "2.0.1",
+    "mongodb": "6.17.0"
+  },
+  "engines": {
+    "node": "22.14.0"
+  }
+}

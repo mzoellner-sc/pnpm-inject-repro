@@ -1,0 +1,22 @@
+packages:
+  - packages/**
+  - "!**/deploy/**"
+
+onlyBuiltDependencies:
+  - "@firebase/util"
+  - "@mongodb-js/zstd"
+  - "@swc/core"
+  - aws-sdk
+  - core-js-pure
+  - esbuild
+  - mongodb-memory-server
+  - nx
+  - protobufjs
+  - sharp
+  - unrs-resolver
+
+injectWorkspacePackages: true
+
+syncInjectedDepsAfterScripts:
+  - build
+
